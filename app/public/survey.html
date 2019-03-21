@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Survey</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div class='container col-10 mx-auto bg-light p-5'>
+        <h1 class='border-bottom pb-4'>Survey Questions</h1>
+        <h2 class='pt-4'>About you</h2>
+        <br>
+
+        <form class='border-bottom pb-3'>
+            <div class="form-group">
+                <label for="name">Name (required)</label>
+                <input type="text" class="form-control col-4" id="name" placeholder="First and Last">
+            </div>
+            <div class="form-group">
+                <label for="photoURL">Link to Photo Image (required)</label>
+                <input type="text" class="form-control col-4" id="photoURL" placeholder="URL">
+            </div>
+        </form>
+
+        <div class='pt-4 border-bottom'>
+            <h3>Question 1</h3>
+            <h6 class='mb-3'>Your mind is always buzzing with unexplored ideas and plans.</h6>
+
+            <div class="dropdown pb-4" id='q1'>
+                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Select an option
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item">1 (Strongly Disagree)</a>
+                    <a class="dropdown-item">2</a>
+                    <a class="dropdown-item">3</a>
+                    <a class="dropdown-item">4</a>
+                    <a class="dropdown-item">5 (Strongly Agree)</a>
+                </div>
+            </div>
+        </div>
+
+        <div class='pt-4 border-bottom'>
+            <h3>Question 2</h3>
+            <h6 class='mb-3'>Generally speaking, you rely more on your experience than your imagination.</h6>
+
+            <div class="dropdown pb-4" id='q2'>
+                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Select an option
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item">1 (Strongly Disagree)</a>
+                    <a class="dropdown-item">2</a>
+                    <a class="dropdown-item">3</a>
+                    <a class="dropdown-item">4</a>
+                    <a class="dropdown-item">5 (Strongly Agree)</a>
+                </div>
+            </div>
+        </div>
+
+        <div class='pt-4 border-bottom'>
+            <h3>Question 3</h3>
+            <h6 class='mb-3'>You find it easy to stay relaxed and focused even when there is some pressure.</h6>
+
+            <div class="dropdown pb-4" id='q3'>
+                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Select an option
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item">1 (Strongly Disagree)</a>
+                    <a class="dropdown-item">2</a>
+                    <a class="dropdown-item">3</a>
+                    <a class="dropdown-item">4</a>
+                    <a class="dropdown-item">5 (Strongly Agree)</a>
+                </div>
+            </div>
+        </div>
+
+        <div class='pt-4 border-bottom'>
+            <h3>Question 4</h3>
+            <h6 class='mb-3'>You rarely do something just out of curiousity.</h6>
+
+            <div class="dropdown pb-4" id='q4'>
+                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Select an option
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item">1 (Strongly Disagree)</a>
+                    <a class="dropdown-item">2</a>
+                    <a class="dropdown-item">3</a>
+                    <a class="dropdown-item">4</a>
+                    <a class="dropdown-item">5 (Strongly Agree)</a>
+                </div>
+            </div>
+        </div>
+
+        <div class='pt-4 border-bottom'>
+            <h3>Question 5</h3>
+            <h6 class='mb-3'>People can rarlely upset you.</h6>
+
+            <div class="dropdown pb-4" id='q5'>
+                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Select an option
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item">1 (Strongly Disagree)</a>
+                    <a class="dropdown-item">2</a>
+                    <a class="dropdown-item">3</a>
+                    <a class="dropdown-item">4</a>
+                    <a class="dropdown-item">5 (Strongly Agree)</a>
+                </div>
+            </div>
+        </div>
+
+        <div class='pt-4 border-bottom'>
+            <h3>Question 6</h3>
+            <h6 class='mb-3'>It is often difficult for you to relate to other people’s feelings.</h6>
+
+            <div class="dropdown pb-4" id='q6'>
+                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Select an option
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item">1 (Strongly Disagree)</a>
+                    <a class="dropdown-item">2</a>
+                    <a class="dropdown-item">3</a>
+                    <a class="dropdown-item">4</a>
+                    <a class="dropdown-item">5 (Strongly Agree)</a>
+                </div>
+            </div>
+        </div>
+
+        <div class='pt-4 border-bottom'>
+            <h3>Question 7</h3>
+            <h6 class='mb-3'>In a discussion, truth should be more important than people’s sensitivities.</h6>
+
+            <div class="dropdown pb-4" id='q7'>
+                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Select an option
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item">1 (Strongly Disagree)</a>
+                    <a class="dropdown-item">2</a>
+                    <a class="dropdown-item">3</a>
+                    <a class="dropdown-item">4</a>
+                    <a class="dropdown-item">5 (Strongly Agree)</a>
+                </div>
+            </div>
+        </div>
+
+        <div class='pt-4 border-bottom'>
+            <h3>Question 8</h3>
+            <h6 class='mb-3'>You rarely get carried away by fantasies and ideas.</h6>
+
+            <div class="dropdown pb-4" id='q8'>
+                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Select an option
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item">1 (Strongly Disagree)</a>
+                    <a class="dropdown-item">2</a>
+                    <a class="dropdown-item">3</a>
+                    <a class="dropdown-item">4</a>
+                    <a class="dropdown-item">5 (Strongly Agree)</a>
+                </div>
+            </div>
+        </div>
+
+        <div class='pt-4 border-bottom'>
+            <h3>Question 9</h3>
+            <h6 class='mb-3'>You think that everyone’s views should be respected regardless of whether they are
+                supported by facts or not.
+            </h6>
+
+            <div class="dropdown pb-4" id='q9'>
+                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Select an option
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item">1 (Strongly Disagree)</a>
+                    <a class="dropdown-item">2</a>
+                    <a class="dropdown-item">3</a>
+                    <a class="dropdown-item">4</a>
+                    <a class="dropdown-item">5 (Strongly Agree)</a>
+                </div>
+            </div>
+        </div>
+
+        <div class='pt-4 border-bottom'>
+            <h3>Question 10</h3>
+            <h6 class='mb-3'>You feel more energetic after spending time with a group of people.</h6>
+
+            <div class="dropdown pb-4" id='q10'>
+                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Select an option
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item">1 (Strongly Disagree)</a>
+                    <a class="dropdown-item">2</a>
+                    <a class="dropdown-item">3</a>
+                    <a class="dropdown-item">4</a>
+                    <a class="dropdown-item">5 (Strongly Agree)</a>
+                </div>
+            </div>
+        </div>
+
+        <button type="submit" class="mt-4 col-4 mx-auto btn btn-danger btn-lg btn-block border-bottom" id="submit"
+            data-toggle="modal" data-target="#bestFriendModal"><i class="fa fa-check-circle" aria-hidden="true"></i>
+            Submit</button>
+    </div>
+
+
+    <div class='container col-10'>
+        <div class='row'>
+            <div class='ml-5'>
+                <a href='/api/friends'>
+                    <h4>API Friends List</h4>
+                </a>
+            </div>
+            <div class='ml-5'>
+                <a href='#'>
+                    <h4>GitHub Repository<h4>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="bestFriendModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Your Best Friend</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h2 id='newBestFriendName'></h2>
+                    <img style='height:200px;width:200px' id='newBestFriendPhoto'>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+<script>
+    //add an attribute of 'selected' to each selected dropdown item
+    $('.dropdown-item').on('click', function () {
+        $(this).attr('selected', 'true')
+    })
+
+
+    $('#submit').on('click', function () {
+        event.preventDefault()
+        //set up object with new user info
+        var newFriend = {
+            name: $('#name').val().trim(),
+            photo: $('#photoURL').val().trim(),
+        }
+
+        //grab all of the survey values from the user and add new property to newFriend
+        var answerArray = []
+        var values = function (selectedValuesArray) {
+            for (var i = 0; i < selectedValuesArray.length; i++) {
+                answerArray.push($(selectedValuesArray[i]).text()[0])
+            }
+            newFriend.scores = answerArray;
+        }
+        values($('a[selected="selected"]'))
+
+        $.post('/api/friends', newFriend, function () {
+            console.log('post request log')
+        }).then(function(response){
+            $('#newBestFriendName').text(response.name)
+            $('#newBestFriendPhoto').attr('src', response.photo)
+        })
+    })
+</script>
+
+</html>
